@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "Skip Redirection Services",
+    "description": "Skip redirection services that work by passing along a URL within a URL.",
+    "version": "1.0",
+
+    "background": {
+        "persistent": true,
+        "scripts": ["script.js"]
+    },
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ]
+}
